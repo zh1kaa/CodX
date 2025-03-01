@@ -1,0 +1,101 @@
+
+.art {
+	.content {
+
+		.title_block {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			.sup_title{
+				font-weight: 400;
+				font-size: clamp(20px, 7vw, 64px);
+				line-height: clamp(20px, 10vw, 64px);
+				letter-spacing: 0.48px;
+				text-align: center;
+			}
+			.sub_title{
+				font-family: Outfit;
+				font-weight: 400;
+				font-size: clamp(15px, 3vw, 17px);
+				line-height: clamp(16px, 3vw, 26px);
+				letter-spacing: 0.48px;
+				text-align: center;
+				
+			}
+		
+		}
+		.tabs {
+			.btn{
+
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .art {
+// 	padding-block: 100px;
+// 	.content {
+// 		.title_block {
+// 			display: flex;
+// 			flex-direction: column;
+// 			gap: 10px;
+// 			.sup_title {
+// 				width: 303;
+// 				height: 64;
+// 				font-weight: 400;
+// 				font-size: 64px;
+// 				line-height: 64px;
+// 				text-align: center;
+// 			}
+// 			.sub_title {
+// 				text-align: center;
+// 				width: 202;
+// 				height: 26;
+// 				font-weight: 400;
+// 				font-size: 18px;
+// 				line-height: 25px;
+// 			}
+// 		}
+// 		.tabs {
+// 			display: flex;
+// 			gap: 100px;
+// 			.btn {
+// 				display: flex;
+// 			}
+// 		}
+// 	}
+// }
