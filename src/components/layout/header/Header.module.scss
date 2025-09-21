@@ -1,0 +1,57 @@
+.Header {
+	position: sticky;
+	top: 0;
+	z-index: 99;
+	padding-block: 15px;
+	.content {
+		padding: 14px 28px;
+		display: flex;
+		justify-content: space-between;
+		border-radius: 30px;
+		box-shadow: 0px -4px 19px 0px rgba(0, 0, 0, 0.03);
+		background: #ffffff74;
+		backdrop-filter: blur(7px);
+		.left {
+			display: flex;
+			gap: 15px;
+			align-items: center;
+			.logo {
+				margin-right: 50px;
+			}
+			nav ul {
+				display: flex;
+				gap: 50px;
+				li {
+					a {
+						padding-block: 10px;
+						display: block;
+						color: black;
+					}
+				}
+			}
+		}
+		.right {
+			display: flex;
+			align-items: center;
+			gap: 20px;
+			.icons {
+				display: flex;
+				gap: 15px;
+				a {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					color: black;
+				}
+			}
+			.button {
+				width: 144;
+				height: 40;
+				background: #2f2f2f;
+				border-radius: 20px;
+				padding: 15px;
+				color: #fff;
+			}
+		}
+	}
+}

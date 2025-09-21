@@ -1,0 +1,13 @@
+.Carousel {
+	padding-block: clamp(18px, 8vw, 80px);
+	width: 100%;
+	@media (max-width: 600px) {
+		padding: 0;
+	}
+	.content {
+		.image {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}

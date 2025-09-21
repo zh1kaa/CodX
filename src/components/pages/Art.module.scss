@@ -1,0 +1,95 @@
+.art {
+	padding-block: clamp(25px, 8vw, 85px);
+	.content {
+		.title_block {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			gap: 15px;
+			.sup_title {
+				font-weight: 400;
+				font-size: clamp(20px, 7vw, 64px);
+				line-height: clamp(20px, 10vw, 64px);
+				letter-spacing: 0.48px;
+				text-align: center;
+			}
+			.sub_title {
+				font-family: Outfit;
+				font-weight: 400;
+				font-size: clamp(15px, 3vw, 17px);
+				line-height: clamp(16px, 3vw, 26px);
+				letter-spacing: 0.48px;
+				text-align: center;
+			}
+		}
+		.tabs {
+			display: flex;
+			gap: 7px;
+			padding-block: clamp(25px, 8vw, 72px);
+			@media (max-width: 600px) {
+				flex-direction: column;
+				width: 100%;
+			}
+			.btn {
+				padding: 15px 65px;
+				border: 1px solid rgb(47, 47, 47);
+				border-radius: 30px;
+				background: transparent;
+				cursor: pointer;
+				&:hover {
+					background: rgb(47, 47, 47);
+					color: #fff;
+				}
+			}
+		}
+		.tab_digital {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			@media (max-width: 600px) {
+				flex-direction: column;
+			}
+			.left {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				img {
+					width: 100%;
+					max-width: 552px;
+					height: 100%;
+				}
+			}
+			.right {
+				width: 100%;
+				max-width: 552px;
+				.role {
+					display: block;
+					color: rgb(255, 127, 150);
+					font-size: 16px;
+					font-weight: 400;
+					line-height: 18px;
+					letter-spacing: 0.48px;
+					margin-bottom: clamp(10px, 4vw, 18px);
+					@media (max-width: 600px) {
+						margin-top: clamp(15px, 4vw, 20px);
+					}
+				}
+				.artist_title {
+					color: rgb(47, 47, 47);
+					font-size: clamp(23px, 6vw, 50px);
+					font-weight: 400;
+					line-height: clamp(25px, 7vw, 45px);
+					letter-spacing: 0.48px;
+					margin-bottom: clamp(15px, 5vw, 28px);
+				}
+				.artist_text {
+					color: rgb(47, 47, 47);
+					font-size: clamp(12px, 4vw, 20px);
+					font-weight: 400;
+					line-height: clamp(14px, 6vw, 26px);
+					letter-spacing: 0.48px;
+				}
+			}
+		}
+	}
+}

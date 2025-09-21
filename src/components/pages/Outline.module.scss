@@ -1,0 +1,35 @@
+.Outline {
+	padding-block: clamp(18px, 8vw, 80px);
+	.content {
+		display: flex;
+		justify-content: space-between;
+		gap: 40px;
+		.left {
+			width: 100%;
+			max-width: 450px;
+			.number {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 57px;
+				height: 35px;
+				border-radius: 30px;
+				background: #82cbac;
+			}
+			.title {
+				font-weight: 700;
+				font-style: Bold;
+				font-size: 35px;
+				line-height: 36px;
+				letter-spacing: 0.48px;
+			}
+			.description {
+				font-weight: 300;
+				font-style: Regular;
+				font-size: 18px;
+				line-height: 26px;
+				letter-spacing: 0.48px;
+			}
+		}
+	}
+}
